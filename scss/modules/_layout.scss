@@ -1,6 +1,37 @@
+html,
 body {
-	margin-top: 4em;
-	margin-bottom: 4em;
-	margin-top: 4rem;
-	margin-bottom: 4rem;
+	height: 100%;
+}
+
+body {
+	margin:0; padding:0;
+}
+
+#map {
+  position:absolute;
+  top:0;
+  bottom:0;
+  width:100%;
+}
+.leaflet-map-pane {
+  z-index: -1;
+}
+.leaflet-container {
+  background: transparent !important;
+}
+.infobox {
+  @include panel(
+    // Sets the panel background color. Default: $panel-pg
+    $bg: transparentize(white, 0.2),
+    // Sets the panel padding amount. Default: $panel-padding
+    $padding:20px,
+    // Sets the font color based on the darkness of the bg & resets header line-heights for panels. Default: $panel-header-adjust
+    $adjust:true
+  );
+  width: 25em;
+  width: 25rem;
+  position: relative;
+  top: 5em;
+  left: 5em;
+  z-index: 999;
 }
