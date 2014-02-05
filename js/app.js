@@ -17,8 +17,7 @@ $(document).ready(function() {
         	return $('<a href="#"></a>').html(oldHtml);
 		}).click(function() {
 			map.panTo(bhell, {'animate': true, 'duration': 1.0});
+			return false;
 		}).append(msg);
 	});
 });
-
-
