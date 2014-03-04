@@ -24,12 +24,12 @@ body {
     // Sets the panel background color. Default: $panel-pg
     $bg: transparentize(white, 0.2),
     // Sets the panel padding amount. Default: $panel-padding
-    $padding:20px,
+    $padding:2rem,
     // Sets the font color based on the darkness of the bg & resets header line-heights for panels. Default: $panel-header-adjust
     $adjust:true
   );
-  width: 25em;
-  width: 25rem;
+  width: 30em;
+  width: 30rem;
   position: relative;
   top: 5em;
   left: 5em;
