@@ -1,0 +1,8 @@
+https://www.ruby-forum.com/topic/55410:
+RMagick can access IPTC tags
+
+https://github.com/krig/jekyll-plugins/blob/master/_plugins/foldergallery.rb
+
+https://github.com/m0tive/jekyll-gallery
+
+http://stackoverflow.com/questions/9204091/display-all-images-from-a-directory-on-a-jekyll-powered-website

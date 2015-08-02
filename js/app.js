@@ -1,7 +1,7 @@
 $(document).ready(function() {
 	jQuery.getJSON('http://freegeoip.net/json/', function(data) {
 		var visitor = data;
-		var bhell = L.latLng(59.882733080235326, 17.654857635498047);
+		var bhell = L.latLng(58.477666, 16.235615);
 
 		// Figure out zoom level
 		var zoom = 5;
